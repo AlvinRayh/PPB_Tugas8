@@ -66,7 +66,7 @@ fun DogCard(dog: Dog) {
 
                 Button(
                     onClick = {
-                        Toast.makeText(context, "You adopted ${dog.name}!", Toast.LENGTH_SHORT).show()
+                        Toast.makeText(context, "Kamu telah mengadopsi ${dog.name}!", Toast.LENGTH_SHORT).show()
                     },
                     modifier = Modifier.align(Alignment.End)
                 ) {
